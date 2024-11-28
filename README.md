@@ -1,6 +1,12 @@
-# Gradio-Osprey-Demo
+# Gradio-BBox
 
-This is the gradio used in demo of our [Osprey](https://github.com/CircleRadon/Osprey), [Pixel Understanding with Visual Instruction Tuning](https://arxiv.org/abs/2312.10032). It is an extension to official [gradio-3.36.1](https://github.com/gradio-app/gradio), which supports drawing boxes on top of an image. 
+<img src="https://github.com/chencn2020/SEAGULL/raw/main/imgs/Logo/logo.png" alt="SEAGULL" style="height: auto; width: 100%; margin-bottom: 3%;">
+
+It is an extension to official [gradio-3.36.1](https://github.com/gradio-app/gradio), which supports **drawing boxes** on top of an image. 
+
+This repository is forked from [Gradio-Osprey-Demo](https://github.com/LiWentomng/gradio-osprey-demo).
+
+Thanks for their great contribution.
 
 ## Install
 
@@ -30,14 +36,11 @@ pnpm --version  # check if success
 ### 3. Install gradio
 
 ```
-git clone https://github.com/LiWentomng/gradio-osprey-demo.git
+git clone https://github.com/chencn2020/gradio-bbox.git
 
-cd gradio-osprey-demo
+cd gradio-bbox
 
 bash scripts/build_frontend.sh
 
 pip install -e .
 ```
-## Acknowledgement
-
-The implementation is inspired by [gradio-box](https://github.com/ShoufaChen/gradio-box) and [gradio-app/gradio#3220](https://github.com/gradio-app/gradio/pull/3220), with several modifications to `gradio-3.36.1`. Thanks for their open-source contributions!
